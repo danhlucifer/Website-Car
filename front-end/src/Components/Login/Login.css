@@ -1,0 +1,238 @@
+.login {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+
+.login-img {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.login-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.login-title {
+    border-radius: 24px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    position: absolute;
+    background-color: #D9D9D9;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    left: 499px;
+    top: 115px;
+    opacity: 0.2;
+    transition-duration: 0.3s;
+}
+.login-title:hover{
+    opacity: 1;
+}
+
+.login-title-input {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.login-title-input-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: aquamarine; */
+}
+
+.login-title-input-header h1 {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    /* identical to box height */
+    text-align: center;
+    color: #000000;
+}
+
+.login-title-input-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-title-input-list-container {
+    display: flex;
+    flex-direction: column;
+    /* background-color: aqua; */
+}
+
+.form {
+    margin: 7px 0;
+}
+
+.form-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffff;
+}
+
+.form-input input {
+    outline: 0;
+    width: 150px;
+    height: 50px;
+    background: #010101;
+    border-radius: 12px;
+    display: block;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 0 40px;
+}
+
+.form-input .icon {
+    position: absolute;
+    top: 16px;
+    left: 15px;
+    font-size: 20px;
+    display: flex;
+}
+
+.login-title-input-list-forgot {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.login-title-input-list-forgot p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 12px;
+    /* identical to box height */
+    text-align: center;
+    color: #070709;
+    transition-duration: 0.4s;
+}
+.login-title-input-list-forgot p:hover{
+    color: #fff;
+}
+
+.login-title-input-list-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-title-input-list-item-fb {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    height: 40px;
+    background: #1E7CBF;
+    border-radius: 12px;
+}
+
+.login-title-input-list-item-fb img {
+    margin-left: 30px;
+}
+
+.login-title-input-list-item-fb p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    margin-left: 13px;
+    line-height: 14px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.login-title-input-list-item-gg {
+    display: flex;
+    align-items: center;
+    width: 230px;
+    height: 40px;
+    background: #ffff;
+    margin-top: 7px;
+    border-radius: 12px;
+}
+
+.login-title-input-list-item-gg img {
+    margin-left: 32px;
+}
+
+.login-title-input-list-item-gg p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    margin-left: 12px;
+    color: #000000;
+}
+
+.login-title-input-list-footer {
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-title-input-list-footer-button button {
+    width: 130px;
+    height: 40px;
+    background: #010101;
+    border-radius: 12px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.login-title-input-list-footer-text p {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #000000;
+}
+
+.login-title-input-list-footer-text span {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+
+    color: #FA0001;
+}
+
+.login-title-sub {
+    /* position: absolute; */
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
